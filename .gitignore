@@ -1,0 +1,22 @@
+# локальные материалы, не относящиеся к сайту
+SKILL.md
+README-skills.md
+plan-landing.md
+components/
+brutalism/
+cinematic-product/
+dark-luxe/
+dashboards/
+editorial-premium/
+gallery-minimal/
+minimalism/
+monochrome-modern/
+premium-bento/
+quiet-luxury/
+soft/
+soft-brutalism/
+swiss-system/
+warm-modern/
+.claude/
+assets/hero-src.mp4
+.DS_Store
