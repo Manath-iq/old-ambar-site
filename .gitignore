@@ -20,3 +20,6 @@ warm-modern/
 .claude/
 assets/hero-src.mp4
 .DS_Store
+
+# исходники видео
+assets/hero-sec-bg.mp4
