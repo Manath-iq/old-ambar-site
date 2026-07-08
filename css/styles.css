@@ -1381,6 +1381,18 @@ input[type="range"]::-moz-range-progress{
   .promo::before, .promo::after{ display: none; }
   .promo-badge{ font-size: 30px; justify-self: start; text-align: left; padding: 0; }
   .promo .link-arrow{ margin-left: 0; }
+
+  /* контакты: подписи над значениями, кнопки во всю ширину */
+  .contact-card{ padding: 24px 20px; }
+  .contact-row{ grid-template-columns: 1fr; gap: 6px; padding-bottom: 14px; }
+  .contact-value{ font-size: 18px; }
+  .contact-cta{ flex-direction: column; }
+  .contact-cta .btn{ width: 100%; }
+  .map-frame{ min-height: 340px; }
+
+  .kids-media{ height: 260px; }
+  .kids-badge{ left: 12px; top: 12px; padding: 8px 12px; font-size: 11px; }
+
   .footer-inner{ grid-template-columns: 1fr; gap: 32px; }
   .book-form{ grid-template-columns: 1fr; }
   .final{ text-align: left; }
