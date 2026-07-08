@@ -1,4 +1,5 @@
 # локальные материалы, не относящиеся к сайту
+_src/
 SKILL.md
 README-skills.md
 plan-landing.md
@@ -18,8 +19,4 @@ soft-brutalism/
 swiss-system/
 warm-modern/
 .claude/
-assets/hero-src.mp4
 .DS_Store
-
-# исходники видео
-assets/hero-sec-bg.mp4

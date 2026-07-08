@@ -7,7 +7,7 @@
   /* ============ HERO: scroll-scrub видео ============ */
   // all-intra версии (каждый кадр — keyframe) для мгновенной перемотки
   var isSmall   = Math.min(window.innerWidth, window.screen.width) < 768;
-  var VIDEO_SRC = isSmall ? 'assets/hero-scrub-mobile.mp4' : 'assets/hero-scrub-desktop.mp4';
+  var VIDEO_SRC = isSmall ? 'video/hero-scrub-mobile.mp4' : 'video/hero-scrub-desktop.mp4';
 
   var video   = document.getElementById('heroVideo');
   var curtain = document.getElementById('curtain');
@@ -243,20 +243,6 @@
     });
   });
 
-  /* ============ адреса: связь списка и пинов ============ */
-  (function(){
-    var items = document.querySelectorAll('.addr');
-    var pins  = document.querySelectorAll('.map-pin');
-    items.forEach(function(it, i){
-      it.addEventListener('mouseenter', activate);
-      it.addEventListener('click', activate);
-      function activate(){
-        items.forEach(function(x){ x.classList.toggle('is-active', x === it); });
-        pins.forEach(function(p, j){ p.classList.toggle('is-active', j === i); });
-      }
-    });
-  })();
-
   /* ============ бронь: форма ============ */
   (function(){
     var form = document.getElementById('bookForm');
@@ -275,11 +261,5 @@
       document.querySelector('.final-micro').style.display = 'none';
       document.getElementById('bookOk').classList.add('is-on');
     });
-  })();
-
-  /* ============ marquee: дублируем контент для бесшовности ============ */
-  (function(){
-    var m = document.getElementById('marq');
-    if (m) m.innerHTML += m.innerHTML;
   })();
 })();
