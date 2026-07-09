@@ -44,8 +44,30 @@
       <span id="navOpen">Открыто до 01:00</span>
     </a>
     <a class="btn btn-ghost btn-sm" href="index.html#bron">Забронировать</a>
+    <button class="nav-burger" id="navBurger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Мобильная навигация">
+    <ul class="mm-links">
+      <li><a href="menu.html">Меню</a></li>
+      <li><a href="index.html#lunch">Ланч</a></li>
+      <li><a href="index.html#banket">Банкеты</a></li>
+      <li><a href="index.html#kids">Детям</a></li>
+      <li><a href="index.html#adresa">Контакты</a></li>
+    </ul>
+  </nav>
+  <div class="mm-bottom">
+    <a class="mm-phone" href="tel:+79178909121">
+      +7 917 890-91-21
+      <span id="mmOpen">Открыто до 01:00</span>
+    </a>
+    <a class="btn btn-ghost mm-btn" href="index.html#bron">Забронировать стол</a>
+  </div>
+</div>
 
 <!-- ================= Шапка страницы ================= -->
 <section class="mhero">
@@ -153,6 +175,7 @@
 }
 </script>
 
+<script src="js/nav.js"></script>
 <script src="js/menu.js"></script>
 </body>
 </html>

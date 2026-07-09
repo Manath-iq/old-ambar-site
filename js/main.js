@@ -37,8 +37,10 @@
     var till = (day === 5 || day === 6) ? '02:00' : '01:00';
     var hero = document.getElementById('openStatus');
     var top  = document.getElementById('navOpen');
+    var mm   = document.getElementById('mmOpen');
     if (hero) hero.textContent = 'Сегодня открыто до ' + till;
     if (top)  top.textContent  = 'Открыто до ' + till;
+    if (mm)   mm.textContent   = 'Открыто до ' + till;
   })();
 
   if (!reduced){
